@@ -3,11 +3,15 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@aws-amplify/ui-react": "^1.2.16",
         "@testing-library/jest-dom": "^5.14.1",
         "@testing-library/react": "^11.2.7",
         "@testing-library/user-event": "^12.8.3",
+        "aws-amplify": "^4.2.10",
         "axios": "^0.21.1",
+        "body-parser": "^1.19.0",
         "bootstrap": "^5.1.0",
+        "express": "^4.17.1",
         "react": "^17.0.2",
         "react-bootstrap": "^2.0.0-beta.6",
         "react-dom": "^17.0.2",
@@ -15,9 +19,7 @@
         "react-scripts": "4.0.3",
         "sqlite3": "^5.0.2",
         "styled-components": "^5.3.1",
-        "web-vitals": "^1.1.2",
-        "body-parser": "^1.19.0",
-        "express": "^4.17.1"
+        "web-vitals": "^1.1.2"
     },
     "scripts": {
         "start": "react-scripts build && node abc",
